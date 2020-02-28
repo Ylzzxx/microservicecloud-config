@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active:
+    - dev
+    
+---
+
+spring:
+  profiles: dev
+  application:
+    name: microservicecloud-config-ylzx-dept
+    
+---
+
+spring:
+  profiles: test
+  application:
+    name: microservicecloud-config-ylzx-test
